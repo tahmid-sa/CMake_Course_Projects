@@ -1,0 +1,143 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+Access is denied
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/make.exe -f Makefile cmTC_022ec/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_022ec.dir/build.make CMakeFiles/cmTC_022ec.dir/build
+make.exe[1]: Entering directory 'G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_022ec.dir/CMakeCCompilerABI.c.obj
+C:/cygwin64/bin/cc    -o CMakeFiles/cmTC_022ec.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
+cc: warning: C:/Program: linker input file unused because linking not done
+cc: error: C:/Program: linker input file not found: No such file or directory
+cc: warning: Files/CMake/share/cmake-3.22/Modules/CMakeCCompilerABI.c\: linker input file unused because linking not done
+cc: error: Files/CMake/share/cmake-3.22/Modules/CMakeCCompilerABI.c\: linker input file not found: No such file or directory
+make.exe[1]: *** [CMakeFiles/cmTC_022ec.dir/build.make:78: CMakeFiles/cmTC_022ec.dir/CMakeCCompilerABI.c.obj] Error 1
+make.exe[1]: Leaving directory 'G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_022ec/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/make.exe -f Makefile cmTC_dd428/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_dd428.dir/build.make CMakeFiles/cmTC_dd428.dir/build
+make.exe[1]: Entering directory 'G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd428.dir/testCCompiler.c.obj
+C:/cygwin64/bin/cc    -o CMakeFiles/cmTC_dd428.dir/testCCompiler.c.obj -c G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp/testCCompiler.c
+process_begin: CreateProcess(C:\cygwin64\bin\cc, C:/cygwin64/bin/cc -o CMakeFiles/cmTC_dd428.dir/testCCompiler.c.obj -c G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp/testCCompiler.c, ...) failed.
+make (e=5): Access is denied.
+make.exe[1]: *** [CMakeFiles/cmTC_dd428.dir/build.make:78: CMakeFiles/cmTC_dd428.dir/testCCompiler.c.obj] Error 5
+make.exe[1]: Leaving directory 'G:/CMake/module2/my_build_dir/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:127: cmTC_dd428/fast] Error 2
+
+
+
